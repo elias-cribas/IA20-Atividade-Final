@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Press+Start+2P&display=swap');
+:root {
+    --ascent-color: #111b1f;
+    --background-color: #17252a;
+    --font-color: #ce00a1;
+    --sub-color: #660055;
+    --button-color: #101a1d;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Press Start 2P", cursive;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    text-align: center;
+    color: var(--font-color);
+}
