@@ -30,22 +30,27 @@ body {
     right:0;
     height:100%;
     width:100%;
-    background: linear-gradient(359deg, #ba00ff, #0f90a5);
-    background-size: 400% 400%;
+    background: linear-gradient(179deg, #a70000, #c2240e, #e1410b);
+    background-size: 600% 600%;
 
-    -moz-animation: AnimationName 13s ease infinite;
-    animation: AnimationName 13s ease infinite;
-    z-index: -999;
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
 @-moz-keyframes AnimationName {
     0%{background-position:50% 0%}
-    50%{background-position:51% 100%}
+    50%{background-position:50% 100%}
     100%{background-position:50% 0%}
 }
 @keyframes AnimationName {
     0%{background-position:50% 0%}
-    50%{background-position:51% 100%}
+    50%{background-position:50% 100%}
     100%{background-position:50% 0%}
 }
 
@@ -81,12 +86,12 @@ body {
 }
 
 h1{
-    color: #ca69ca;
+    color: #b31004;
     margin-bottom: 20px;
 }
 
 input{
-    color: #ca69ca;
+    color: #b31004;
     background-color: #1d2a2e;
     outline: none;
     font-family: Poppins;
@@ -94,7 +99,7 @@ input{
     padding: 15px;
 }
 input[type=text]:-moz-placeholder{
-    color: #ca69ca;
+    color: #b31004;
     background-color: #1d2a2e;
 }
 
@@ -105,14 +110,14 @@ button{
     width: 100px;
     padding: 10px;
     cursor: pointer;
-    color: #ca69ca;
+    color: #b31004;
 }
 
 button:hover{
-    background-color: #a93f90;
+    background-color: #9b0000;
     color: #010101;
 }
 
 button:active{
-    background-color: #f1aaf1;
+    background-color: #e06f6f;
 }
