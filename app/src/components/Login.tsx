@@ -40,7 +40,7 @@ export default function ({setRoute}: {setRoute: Dispatch<SetStateAction<string>>
       <h1>Login</h1>
       <input name="email" placeholder="email" />
       <input name="password" placeholder="password" />
-      <button onClick={() => {}}>entrar</button>
+      <button onClick={() => setRoute("project")}>entrar</button>
       <button onClick={() => setRoute("cadastro")}>cadastrar-se</button>
     </form>
   </div>
